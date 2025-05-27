@@ -39,4 +39,5 @@ echo "GZ_SIM_RESOURCE_PATH is now: $GZ_SIM_RESOURCE_PATH"
 echo "IGN_GAZEBO_RESOURCE_PATH is now: $IGN_GAZEBO_RESOURCE_PATH"
 ```
 
-[[moveit_gzsim_2.mp4]]
+https://github.com/user-attachments/assets/591bd2f8-aef9-400e-b335-6672a6a1598a
+
