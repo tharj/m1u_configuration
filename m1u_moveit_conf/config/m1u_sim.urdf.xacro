@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="m1u_sim">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import m1u_sim urdf file -->
+    <xacro:include filename="$(find m1u_gz)/xacro/m1u_sim.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="m1u_sim.ros2_control.xacro" />
+
+
+    <xacro:m1u_sim_ros2_control name="m1u_controller" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>
