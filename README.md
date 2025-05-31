@@ -8,9 +8,10 @@ Ubuntu 24.04 with ROS2 Jazzy was used to create and test this configuration
 3. Install Gazebo (https://gazebosim.org/docs/latest/ros_installation/)
 
 ### M1u configuration
-1. Clone the packages from this repository into your ROS2 workspace
+1. Clone the three folders containing the ROS2 packages from this repository into your ROS2 workspace (description, gazebo and moveit)
+   - SolidWorks assembly folder not used, can be exluded
    - The ws_moveit workspace that is created in the MoveIt2 installation guide was used, and is used as path in the files
-2. Build the packages
+3. Build the packages
    
    ```
    source /opt/ros/jazzy/setup.bash
